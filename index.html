@@ -1,11 +1,206 @@
-<html>
+<!DOCTYPE html>
 <html lang="pt-BR">
+
 <head>
-  <link rel="stylesheet" href="style.css">
-  <meta charset="UTF-8">
-  <title>Meu primeiro website!</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfólio | Desenvolvedor Front-end</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css">
+
 </head>
+
 <body>
-    <h1>Matheus Nundes de Souza</h1>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="container hero-content">
+            <img src="./assets/img/profile.jpg" alt="Foto de perfil de Matheus Nunes" class="profile-photo">
+
+            <h1>Olá, eu sou <span>Matheus Nunes</span></h1>
+            <p>Desenvolvedor Front-end focado em interfaces modernas e experiências incríveis.</p>
+            <a href="#projetos" class="btn">Ver Projetos</a>
+        </div>
+    </header>
+
+
+    <!-- SOBRE MIM -->
+    <section class="sobre" id="sobre">
+        <div class="container">
+            <div class="sobre-card">
+                <h2>Sobre Mim</h2>
+                <p>
+                    Sou desenvolvedor Front-end com experiência em HTML, CSS, JavaScript e frameworks modernos.
+                    Tenho foco em criar interfaces modernas, acessíveis e performáticas, sempre pensando
+                    na melhor experiência para o usuário.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- PROJETOS -->
+<section class="projetos" id="projetos">
+    <div class="container">
+        <h2>Projetos</h2>
+
+        <div class="grid-projetos">
+
+            <!-- Projeto 1 -->
+            <article class="card project-card">
+                <a href="https://matheusnunes1b.github.io/CSS_Flexbox_e_CSS_Grid/" target="_blank" class="project-image">
+                    <img src="./assets/images/projects/projeto1.png" alt="Preview do Projeto 1">
+                </a>
+
+                <div class="project-content">
+                    <h3>Organização e Layouts com CSS Flexbox e CSS Grid</h3>
+                    <p>Desafio de layout utilizando CSS Flexbox e CSS Grid para criar designs responsivos e estruturados de maneira eficiente.</p>
+
+                    <div class="project-links-text">
+                        <a href="https://matheusnunes1b.github.io/CSS_Flexbox_e_CSS_Grid/" target="_blank">Ver projeto</a>
+                        <a href="https://github.com/MatheusNunes1B/CSS_Flexbox_e_CSS_Grid" target="_blank">GitHub</a>
+                    </div>
+                    
+                    <!-- Ferramentas -->
+                    <div class="project-tools">
+                        <div class="tools-line">
+                            <i class="devicon-html5-plain"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tools-line">
+                            <i class="devicon-css3-plain"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 2 -->
+            <article class="card project-card">
+                <a href="https://matheusnunes1b.github.io/Cadastro_de_herois/" target="_blank" class="project-image">
+                    <img src="./assets/images/projects/projeto2.png" alt="Preview do Projeto 2">
+                </a>
+
+                <div class="project-content">
+                    <h3>Formulário de Cadastro de Heróis com HTML</h3>
+                    <p>Formulário criado para o cadastro de heróis, praticando o uso das principais tags HTML, como inputs, selects e textareas.</p>
+
+                    <div class="project-links-text">
+                        <a href="https://matheusnunes1b.github.io/Cadastro_de_herois/" target="_blank">Ver projeto</a>
+                        <a href="https://github.com/MatheusNunes1B/Cadastro_de_herois" target="_blank">GitHub</a>
+                    </div>
+                    
+                    <!-- Ferramentas -->
+                    <div class="project-tools">
+                        <div class="tools-line">
+                            <i class="devicon-html5-plain"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tools-line">
+                            <i class="devicon-css3-plain"></i>
+                            <span>CSS</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+            <!-- Projeto 3 -->
+            <article class="card project-card">
+                <a href="https://matheusnunes1b.github.io/natal_tech/" target="_blank" class="project-image">
+                    <img src="./assets/images/projects/projeto3.png" alt="Preview do Projeto 3">
+                </a>
+
+                <div class="project-content">
+                    <h3>Loja temática de Natal</h3>
+                    <p>Adaptação de um e-commerce para uma campanha de Natal, com atualização do backend para produtos natalinos e tematização do frontend com novas cores, imagens e textos.</p>
+
+                    <div class="project-links-text">
+                        <a href="https://matheusnunes1b.github.io/natal_tech/" target="_blank">Ver projeto</a>
+                        <a href="https://github.com/MatheusNunes1B/natal_tech/settings/pages" target="_blank">GitHub</a>
+                    </div>
+                    
+                    <!-- Ferramentas -->
+                    <div class="project-tools">
+                        <div class="tools-line">
+                            <i class="devicon-html5-plain"></i>
+                            <span>HTML</span>
+                        </div>
+                        <div class="tools-line">
+                            <i class="devicon-css3-plain"></i>
+                            <span>CSS</span>
+                        </div>
+                        <div class="tools-line">
+                            <i class="devicon-javascript-plain"></i>
+                            <span>JavaScript</span>
+                        </div>
+                        <div class="tools-line">
+                            <i class="devicon-supabase-original"></i>
+                            <span>Supabase</span>
+                        </div>
+                    </div>
+                </div>
+            </article>
+
+        </div>
+    </div>
+</section>
+
+
+
+
+
+    <!-- HABILIDADES -->
+    <section class="habilidades" id="habilidades">
+        <div class="container">
+            <h2>Habilidades</h2>
+
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="devicon-html5-plain"></i>
+                    <span>HTML5</span>
+                </div>
+
+                <div class="skill">
+                    <i class="devicon-css3-plain"></i>
+                    <span>CSS3</span>
+                </div>
+
+                <div class="skill">
+                    <i class="devicon-javascript-plain"></i>
+                    <span>JavaScript</span>
+                </div>
+
+                <div class="skill">
+                    <i class="devicon-react-original"></i>
+                    <span>React</span>
+                </div>
+
+                <div class="skill">
+                    <i class="devicon-figma-plain"></i>
+                    <span>Figma</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- FOOTER -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2026 - Matheus Nunes de Souza</p>
+
+            <div class="social-links">
+                <a href="https://linkedin.com/in/matheus-nunes-de-souza-b40852394" target="_blank">LinkedIn</a>
+                <a href="https://github.com/MatheusNunes1B" target="_blank">GitHub</a>
+            </div>
+        </div>
+    </footer>
+
 </body>
+
 </html>
